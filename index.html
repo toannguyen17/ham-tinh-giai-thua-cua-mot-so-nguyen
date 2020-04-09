@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hàm tính giai thừa của một số nguyên</title>
+</head>
+<body>
+	<p>Hàm tính giai thừa của một số nguyên</p><br/>
+	<button onclick="factorial()">Nhập số</button>
+	<script type="text/javascript">
+		function factorial() {
+			let enterNumber = Number(prompt());
+			let count = 1;
+			for (let i = 1; i <= enterNumber; i++) {
+				count *= i;
+			}
+			alert(enterNumber+'! = '+count);
+		}
+	</script>
+</body>
+</html>
